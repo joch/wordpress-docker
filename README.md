@@ -7,7 +7,7 @@ your plugins and themes without any hassle.
 ## Getting Started
 
 1. Clone this repostory:
-    `git clone https://github.com/joch/wordpress-docker.git`
+    `git clone --recursive https://github.com/joch/wordpress-docker.git`
 1. Copy the provided config file to the WordPress directory:
     `cp wp-config.php wordpress/`
 1. Run `fig up` to start the containers.
