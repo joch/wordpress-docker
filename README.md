@@ -11,7 +11,8 @@ your plugins and themes without any hassle.
 1. Copy the provided config file to the WordPress directory:
     `cp wp-config.php wordpress/`
 1. Run `fig up` to start the containers.
-1. Browse to http://[docker ip]:8000/ and you are ready to go!
+1. Browse to http://[docker ip]:8000/ and you are ready to go! (find the
+   ip using `boot2docker ip`)
 
 ## If you're new to Docker
 
