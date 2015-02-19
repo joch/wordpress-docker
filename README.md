@@ -16,10 +16,13 @@ your plugins and themes without any hassle.
 
 ## Tmuxp workspace
 
-A predefined workspace if provided to easily get going.
+A predefined workspace is provided to easily get going.
 
 1. Install tmuxp (`sudo pip install tmuxp` on a Mac)
 1. Run `tmuxp load tmuxp.yml` (provided that you have tmux installed)
+1. A tmux session will be started with a vim window located in the
+   plugins directory. The containers are started automatically in the
+   second window.
 
 ## If you're new to Docker
 
