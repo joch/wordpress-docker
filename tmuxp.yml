@@ -1,0 +1,29 @@
+session_name: wordpress
+start_directory: ./
+shell_command_before: $(boot2docker shellinit)
+
+windows:
+
+  - window_name: editor
+    start_directory: ./wordpress/wp-content/plugins
+    focus: True
+    layout: main-vertical
+    options:
+      other-pane-width: 90
+    panes:
+      - pane:
+        shell_command: vim .
+        focus: true
+      - pane:
+        shell_command: ls
+      - pane:
+        shell_command: echo "http://$(boot2docker ip):8000/"
+      - null
+
+  - window_name: server
+    start_directory: .
+    layout: tiled
+    panes:
+      - pane:
+        shell_command: fig up
+        focus: true
