@@ -14,6 +14,13 @@ your plugins and themes without any hassle.
 1. Browse to http://[docker ip]:8000/ and you are ready to go! (find the
    ip using `boot2docker ip`)
 
+## Tmuxp workspace
+
+A predefined workspace if provided to easily get going.
+
+1. Install tmuxp (`sudo pip install tmuxp` on a Mac)
+1. Run `tmuxp load tmuxp.yml` (provided that you have tmux installed)
+
 ## If you're new to Docker
 
 If you are running `boot2docker`, you can easily find your Docker IP by
