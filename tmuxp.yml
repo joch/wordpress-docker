@@ -5,7 +5,7 @@ shell_command_before: $(boot2docker shellinit)
 windows:
 
   - window_name: editor
-    start_directory: ./wordpress/wp-content/plugins
+    start_directory: ./wordpress/wp-content
     focus: True
     layout: main-vertical
     options:
