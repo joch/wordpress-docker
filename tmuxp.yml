@@ -25,5 +25,5 @@ windows:
     layout: tiled
     panes:
       - pane:
-        shell_command: fig up
+        shell_command: docker-compose up
         focus: true

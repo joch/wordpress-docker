@@ -10,7 +10,7 @@ your plugins and themes without any hassle.
     `git clone --recursive https://github.com/joch/wordpress-docker.git`
 1. Copy the provided config file to the WordPress directory:
     `cp wp-config.php wordpress/`
-1. Run `fig up` to start the containers.
+1. Run `docker-compose up` to start the containers.
 1. Browse to http://[docker ip]:8000/ and you are ready to go! (find the
    ip using `boot2docker ip`)
 
