@@ -4,6 +4,10 @@ WordPress Docker makes developing for WordPress easy and predictable. It
 sets up everything for you, so that you can dive straight into developing
 your plugins and themes without any hassle.
 
+There in a more in-depth blog post is available called [Develop
+WordPress plugins and themes using
+Docker](http://johnny.chadda.se/develop-wordpress-plugins-and-themes-using-docker/).
+
 ## Getting Started
 
 1. Clone this repostory:
